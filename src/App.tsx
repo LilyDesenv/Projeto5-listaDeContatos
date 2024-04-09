@@ -1,6 +1,9 @@
+import EstiloGlobal from './styles'
+
 function App() {
   return (
-    <div className="App">
+    <div>
+      <EstiloGlobal />
       <h1>Primeira Página</h1>
     </div>
   )

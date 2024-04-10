@@ -1,4 +1,4 @@
-import CardContato from '../../components/CardContato'
+import CardContato, { CardContatoEdit } from '../../components/CardContato'
 import HeaderCardContato from '../../components/HeaderCardContato'
 import { MainContainer, Titulo } from '../../styles'
 
@@ -11,7 +11,7 @@ const ListaDeContatos = () => {
       <CardContato />
       <CardContato />
       <HeaderCardContato />
-      <CardContato />
+      <CardContatoEdit />
     </MainContainer>
   )
 }

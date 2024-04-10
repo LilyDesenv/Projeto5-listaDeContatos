@@ -16,12 +16,15 @@ export const Botao = styled.button`
   cursor: pointer;
   background-color: ${variaveis.corBotao};
   border-radius: 50%;
-  margin-right: 8px;
-  margin-top: 40px;
-  height: 56px;
-  width: 56px;
+  margin-left: 140px;
+  margin-top: 100px;
+  height: 64px;
+  width: 64px;
 `
 
-export const BotaoSalvar = styled(Botao)`
-  background-color: ${variaveis.corHeaderCard};
+export const ImagemVoltar = styled.img`
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  margin-top: 12px;
 `

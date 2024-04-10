@@ -9,20 +9,6 @@ export const Card = styled.div`
   grid-template-columns: auto 1fr 100px;
 `
 
-export const TituloCampo = styled.label`
-  font-weight: bold;
-  background-color: transparent;
-  text-align: right;
-  display: block;
-`
-
-export const Campo = styled.input`
-  margin-left: 16px;
-  display: block;
-  max-width: 600px;
-  width: 100%;
-`
-
 export const BotoesDeAcao = styled.div`
   background-color: transparent;
   display: inline;

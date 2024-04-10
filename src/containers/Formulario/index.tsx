@@ -33,6 +33,7 @@ const Formulario = () => {
           <Grid>
             <TituloCampo htmlFor="nome">Nome Completo:</TituloCampo>
             <Campo
+              required
               type="text"
               id="nome"
               value={nome}
@@ -40,6 +41,7 @@ const Formulario = () => {
             />
             <TituloCampo htmlFor="email">E-mail:</TituloCampo>
             <Campo
+              required
               type="email"
               id="email"
               value={email}
@@ -47,6 +49,7 @@ const Formulario = () => {
             />
             <TituloCampo htmlFor="telefone">Telefone:</TituloCampo>
             <Campo
+              required
               type="text"
               id="telefone"
               value={telefone}

@@ -11,6 +11,7 @@ export const Form = styled.form`
 export const FormCard = styled.div`
   background-color: ${variaveis.corCard};
   padding: 24px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 `
 
 export const Grid = styled.div`
@@ -31,4 +32,5 @@ export const BotaoSalvar = styled(Botao)`
   font-weight: bold;
   border: none;
   margin-left: 56px;
+  cursor: pointer;
 `

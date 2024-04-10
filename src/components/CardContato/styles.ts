@@ -7,6 +7,8 @@ export const Card = styled.div`
   max-width: 900px;
   display: grid;
   grid-template-columns: auto 1fr 100px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 `
 
 export const BotoesDeAcao = styled.div`

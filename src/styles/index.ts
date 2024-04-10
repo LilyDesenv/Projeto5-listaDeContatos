@@ -10,6 +10,9 @@ const EstiloGlobal = createGlobalStyle`
   color: ${variaveis.corFonte};
   background-color: ${variaveis.corDeFundo};
   list-style: none;
+  :disabled {
+    background-color: transparent;
+  }
 }
 `
 
@@ -38,6 +41,7 @@ export const TituloCampo = styled.label`
   background-color: transparent;
   text-align: right;
   display: block;
+  margin-bottom: 16px;
 `
 
 export const Campo = styled.input`
@@ -48,6 +52,9 @@ export const Campo = styled.input`
   border: none;
   border-bottom: 2px solid ${variaveis.corFonte};
   margin-bottom: 16px;
+  padding-left: 4px;
 `
+
+export const CampoTelefone = styled.input
 
 export default EstiloGlobal
